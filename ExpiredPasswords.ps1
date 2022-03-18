@@ -1,0 +1,2 @@
+﻿Get-ADUser -filter * -properties SamAccountName, PasswordLastSet, PasswordExpired, PasswordNeverExpires | Sort-Object -Property Name | ft Name, SamAccountName, PasswordLastSet, PasswordExpired, PasswordNeverExpires
+pause
